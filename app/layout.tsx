@@ -13,6 +13,14 @@ export const metadata: Metadata = {
   title: `${COMPANY.name} | ${COMPANY.tagline} | New Brunswick`,
   description:
     "B.P. certified roofing contractor serving Fredericton & Saint John. Asphalt & metal roofing, free estimates, extended warranties. Call (506) 273-1609.",
+  robots: {
+    index: false,
+    follow: false,
+    googleBot: {
+      index: false,
+      follow: false,
+    },
+  },
   openGraph: {
     title: COMPANY.name,
     description:

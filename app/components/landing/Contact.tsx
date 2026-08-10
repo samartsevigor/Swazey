@@ -107,8 +107,8 @@ export function Footer() {
           </a>
         </div>
 
-        <p className="text-sm">
-          © {new Date().getFullYear()} {COMPANY.name}. All rights reserved.
+        <p className="max-w-xs text-center text-sm sm:text-right">
+          Concept website demo. Not affiliated with or endorsed by {COMPANY.name}.
         </p>
       </div>
     </footer>
